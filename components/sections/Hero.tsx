@@ -21,7 +21,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-house.png"
+          src="/images/hero-house.webp"
           alt="Moderní dům s chytrou domácností"
           fill
           className="object-cover"

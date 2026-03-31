@@ -72,7 +72,7 @@ export function SmartHome() {
             <div className="p-2 rounded-[2.5rem] bg-black/[0.02] shadow-[0_0_0_1px_rgba(0,0,0,0.04)]">
               <div className="relative rounded-[calc(2.5rem-0.5rem)] overflow-hidden shadow-[inset_0_1px_1px_rgba(255,255,255,0.8)]">
                 <Image
-                  src="/images/smart-home.png"
+                  src="/images/smart-home.webp"
                   alt="Chytrá domácnost"
                   width={800}
                   height={600}
