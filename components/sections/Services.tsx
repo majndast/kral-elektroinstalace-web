@@ -58,7 +58,7 @@ export function Services() {
                   {/* Inner Core */}
                   <div className="relative rounded-[calc(2rem-0.375rem)] bg-white p-8 shadow-[inset_0_1px_1px_rgba(255,255,255,0.8)] h-full flex flex-col">
                     {/* Badge */}
-                    {service.badge && (
+                    {"badge" in service && service.badge && (
                       <div className="absolute top-6 right-6">
                         <span className="px-3 py-1.5 rounded-full bg-yellow-primary text-text-primary text-[10px] font-bold uppercase tracking-[0.1em]">
                           {service.badge}
