@@ -210,13 +210,10 @@ export function SmartHome() {
           <FadeIn direction="left">
             {/* Double Bezel */}
             <div className="p-1.5 rounded-[2rem] bg-black/[0.02] shadow-[0_0_0_1px_rgba(0,0,0,0.04)]">
-              <div className="rounded-[calc(2rem-0.375rem)] bg-white p-8 shadow-[inset_0_1px_1px_rgba(255,255,255,0.8)]">
-                <h3 className="text-xl font-semibold text-text-primary tracking-tight mb-2">
-                  Úspora energie
+              <div className="rounded-[calc(2rem-0.375rem)] bg-white p-8 lg:p-10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.8)]">
+                <h3 className="text-2xl font-semibold text-text-primary tracking-tight mb-2 text-center">
+                  Kolik ušetříte?
                 </h3>
-                <p className="text-text-secondary mb-8">
-                  Porovnání roční spotřeby běžného a chytrého domu
-                </p>
                 <SavingsChart />
               </div>
             </div>
