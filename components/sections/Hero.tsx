@@ -21,8 +21,8 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80"
-          alt="Moderní dům"
+          src="/images/hero-house.png"
+          alt="Moderní dům s chytrou domácností"
           fill
           className="object-cover"
           priority
