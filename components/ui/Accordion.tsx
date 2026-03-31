@@ -57,7 +57,7 @@ function AccordionItem({ question, answer, isOpen, onToggle, index }: AccordionI
 }
 
 interface AccordionProps {
-  items: Array<{ question: string; answer: string }>;
+  items: readonly { question: string; answer: string }[];
   allowMultiple?: boolean;
   className?: string;
 }
